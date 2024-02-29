@@ -1,0 +1,289 @@
+* {
+    margin: 0;
+    font-family: Arial;
+}
+
+.round {
+    border-top: 4px solid #1E6AA6;
+    border-radius: 4px;
+}
+
+.hero-sec {
+    width: 100%;
+    height: 600px;
+    background-color: #39A7FF;
+}
+
+.title h1{
+    text-align: center;
+    font-size: 3rem;
+    color: white;
+    letter-spacing: 3px;
+    margin-bottom: 20px;
+}
+
+.title p {
+    text-align: center;
+    font-size: 1.5rem;
+    color: #E0F4FF;
+    letter-spacing: 2px;
+}
+
+.line {
+    color: #1E6AA6;
+    line-height: 1rem;
+    text-decoration: underline;
+}
+
+.design-right {
+    margin-left: 1149px;
+}
+.design-left {
+    margin-top: 93px;
+}
+
+/* profile */
+.profile {
+    height: 500px;
+    display: flex;
+    width: 100%;
+}
+
+span {
+    color: #39A7FF;
+    font-weight: bold;
+}
+
+.profile-column {
+    flex-direction: column;
+    margin-left: 40px;
+    margin-top: 100px;
+}
+
+.profile-title {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+.profile-desc {
+    font-size: 1.2rem;
+    line-height: 1.6rem;
+}
+
+.profile > .profile-img {
+    margin-left: 50px;
+    margin-top: 100px;
+}
+
+.profile > .profile-img > img {
+    border-radius: 5px;
+    float: left;
+    box-shadow: 10px 10px 10px rgb(204, 204, 204);
+}
+
+.profile-img {
+    padding: 10px;
+}
+
+/* skills */
+
+.skills {
+    height: 500px;
+    width: 100%;
+    display: flex;
+}
+
+.skills-column {
+    flex-direction: column;
+    flex: 1;
+    margin-left: 100px;
+    margin-top: 150px;
+}
+
+.skills > .skills-column .column-title {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+.skills > .skills-column .column-desc {
+    font-size: 1.2rem;
+}
+
+.skills .skills-img {
+    margin-top: 120px;
+    margin-right: 100px;
+    margin-left: 20px;
+}
+
+/* work experience */
+
+.work {
+    height: 500px;
+    width: 100%;
+    display: flex;
+}
+
+.work-column {
+    flex-direction: column;
+    flex: 1;
+    margin-left: 100px;
+    margin-top: 150px;
+}
+
+.work > .work-column .work-title {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+.work > .work-column .work-desc {
+    font-size: 1.2rem;
+    line-height: 1.6rem;
+}
+
+body > div.work > div.work-column > div.work-link {
+    margin-top: 20px;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+body > div.work > div.work-column > div.work-link > p > a {
+    color: #39A7FF;
+    text-decoration: none;
+}
+
+body > div.work > div.work-column > div.work-link > p > a:hover {
+    color: blueviolet;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.work .work-img {
+    margin-top: 120px;
+    margin-right: 100px;
+    margin-left: 50px;
+}
+
+/* projects section */
+
+.projects {
+    height: 700px;
+    width: 100%;
+    display: flex;
+}
+
+.projects > .img-col {
+    flex-direction: column;
+}
+
+.projects > .img-col div {
+    margin-top: 25px;
+    margin-left: 50px;
+}
+
+.projects > .img-col img {
+    border-radius: 5px;
+}
+
+.text-col {
+    flex-direction: column;
+    margin-left: 50px;
+}
+
+.projects .text-col > .col-title {
+    font-size: 2rem;
+    margin-top: 25px;
+}
+
+.projects .text-col > .para-first{
+    margin-top: 80px;
+}
+
+.projects .text-col > .para-sec {
+    margin-top: 280px;
+}
+
+.projects > .img-col img {
+    box-shadow: 5px 8px 10px rgb(172, 172, 172);
+}
+
+/* contact section */
+.contact {
+    width: 100%;
+    height: 300px;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+
+.contact > .title-text {
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+}
+
+.contact .body-text > p {
+    margin: 0;
+    padding: 0;
+    line-height: 1.5rem;
+    text-align: center;
+    padding-left: 25%;
+    padding-right: 25%;
+}
+
+.contact .btn-ct > button > a {
+    text-decoration: none;
+    color: white;
+    
+}
+
+.contact .btn-ct > button {
+    border: 0;
+    color: white;
+    background-color: #39A7FF;
+    padding: 5px 20px;
+    border-radius: 20px;
+    box-shadow: 0 8px 12px 0 lightblue;
+}
+
+.contact .btn-ct > button:hover {
+    color: white;
+    background-color: #1E6AA6;
+}
+
+footer {
+    width: 100%;
+    height: 200px;
+    background-color: #39A7FF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.foot-container {
+    display: flex;
+    gap: 10px;
+}
+
+body > footer > div.footer.foot-container a{
+    text-decoration: none;
+    color: #1E6AA6;
+    font-size: .85rem;
+}
+
+body > footer > div > div:nth-child(2) > a {
+    border-left: 2px solid #1E6AA6;
+    padding-left: 8px;
+}
+
+body > footer > div > div:nth-child(3) > a {
+    border-left: 2px solid #1E6AA6;
+    padding-left: 8px;
+}
+
+@media (max-width : 680px) {
+    
+}
